@@ -1,0 +1,17 @@
+ul{
+color: darkslategrey;
+
+}
+.favorite{
+    color: darkcyan;
+}
+body{
+background-color: rgb(195, 210, 195);
+
+}
+#frame{
+    border: 1px solid #acf071;
+    border-radius: 4px;
+    padding: 5px;
+    width: 160px;
+}
