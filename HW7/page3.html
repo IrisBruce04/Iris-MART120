@@ -1,0 +1,60 @@
+<html>
+    <head>
+         <title>Page 3</title>
+    </head>
+
+    <body>
+
+<a href="index.html">homepage</a>
+<a href="page2.html">Page 2</a>
+<a href="page4.html">Page 4</a>
+<br>
+<h1>Contact us</h1>
+<br>
+<script>
+            function checkit()
+            {
+                if (document.getElementById("firstname").value=="") {
+
+                }
+                document.getElementById("firstname").style.backgroundColor = "red"
+                document.getElementById("required 1").innerHTML = "* Required"
+
+                if (document.getElementById("lastname").value=="") {
+
+                }
+                document.getElementById("lastname").style.backgroundColor = "red"
+                document.getElementById("required 2").innerHTML = "* Required"
+
+
+                if (document.getElementById("emailaddress").value=="") {
+
+                }
+                document.getElementById("emailaddress").style.backgroundColor = "red"
+                document.getElementById("required 3").innerHTML = "* Required"
+
+                if (document.getElementById("doyouagree").checked == "") {
+                document.getElementById("doyouagree").style = "red"
+                document.getElementById("required 4").innerHTML = "* Required"
+                }
+                
+            }       
+        </script>
+
+
+
+   <br>
+First Name: <input type = "text" id = "firstname"><span id="required 1"></span> <br>
+Last Name: <input type = "text" id = "lastname"><span id="required 2"></span> <br>
+Email Address: <input type="text" id="emailaddress"><span id="required 3"></span> <br>
+Check box to agree to terms and conditions <input type = "checkbox" id = "doyouagree"><span id="required 4"></span>
+    <br>
+    <br>
+ <button type = "button" id = "button" onclick="checkit()" >Submit</button>
+
+
+
+    </body>
+
+
+</html>
